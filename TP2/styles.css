@@ -36,14 +36,9 @@ body a {
 
 .contentContainer {
     margin: 3em;
-}
-
-.leftColumnContainer {
-    width: 35%;
-}
-
-.rightColumnContainer {
-    width: 65%;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    column-gap: 2em;
 }
 
 .titleContainer {
@@ -102,4 +97,72 @@ body a {
 
 .aboutContainer div {
     padding : 1em 0 1em 0;
+}
+
+.articleGridContainer {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    border-bottom: 1px solid grey;
+}
+.articleTextGridContainer {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    border-right: 1px solid grey;
+}
+
+.articleTextGridContainer div {
+    padding-top: 1em;   
+}
+
+.article {
+    background-color: white;
+    padding: 2em;
+}
+
+.articleAuthorGridContainer {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    padding: 1em;
+}
+
+.articleAuthorLogoGridContainer {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    vertical-align: middle;
+    padding: 1em 0 1em 0;
+}
+
+.articleAuthorLogoGridContainer div:first-child {
+    padding-top: 1em;
+}
+
+.articleDescriptionContainer {
+    padding: 2em 0 2em 0;
+}
+
+.articleDescriptionTextContainer {
+    padding: 2em 0 2em 0;
+}
+
+.articleButtonsGridContainer {
+    display: grid;
+    grid-template-columns: 25% auto 35%;
+}
+
+.articleButtonsLikeContainer {
+    text-align: right;
+    display: flex;
+}
+
+.articleButtonsLikeContainer div {
+    border-left: 1px solid grey;
+    padding: 0 1em 0 1em;
+}
+
+.articleButtonsLikeContainer div:first-child{
+    border: none!important;
+}
+
+.articleButtonsLikeContainer div span {
+    padding-left: 1em;
 }
