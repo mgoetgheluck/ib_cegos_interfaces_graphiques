@@ -1,0 +1,49 @@
+body {
+    background-color: grey;
+}
+
+.header_nav {
+    border-bottom: 1px solid;
+}
+.left_nav {
+    width: 70%;
+    float: left;
+}
+
+.left_nav a {
+    border-left : 1px solid;
+    padding: 1em;
+    margin-left: 1em;
+}
+
+.left_nav:first-child {
+    border-left: none!important;
+}
+
+.right_nav{
+    width: 30%;
+    float: right;
+    text-align: right;
+}
+
+.right_nav button{
+    margin-left: 1em;
+    padding:1em;
+    border-left : 1px solid;
+}
+
+.contentContainer {
+    width: 100%;
+}
+
+.firstColumnContainer {
+    width : 35%;
+}
+
+.secondColumnContainer {
+    width: 65%;
+}
+
+.titleContainer {
+    border-bottom: 1px solid;
+}
