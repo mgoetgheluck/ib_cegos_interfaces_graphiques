@@ -1,5 +1,6 @@
 body {
     font-family: "Poppins", sans-serif;
+    background-color: lightgrey;
 }
 
 body a {
@@ -31,4 +32,64 @@ body a {
 .buttonsContainer span {
     border-left: 1px solid grey;
     padding: 0 20px 0 20px;
+}
+
+.contentContainer {
+    margin: 3em;
+}
+
+.leftColumnContainer {
+    width: 35%;
+}
+
+.rightColumnContainer {
+    width: 65%;
+}
+
+.titleContainer {
+    border-bottom: 1px solid grey;
+}
+
+.vignettesContainer {
+    border-bottom: 1px solid grey;
+    padding-bottom : 2em;
+}
+
+.vignette {
+    margin-top: 2em;
+    background-color: white;
+}
+
+.vignetteGridContainer {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 1em;
+}
+
+.vignetteImgContainer {
+    text-align : center;
+}
+
+.miniVignetteGridContainer {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.miniVignetteImgContainer {
+    text-align : center;
+}
+
+.miniVignetteTextContainer {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    padding: 2em;
+}
+
+miniVignetteTextContainer > span {
+    margin-top: 1em;
+}
+
+.miniVignette {
+    padding: 2em 0 2em 0;
+    border-bottom: 1px solid grey;
 }
