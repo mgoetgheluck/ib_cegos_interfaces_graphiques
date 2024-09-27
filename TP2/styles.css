@@ -85,11 +85,21 @@ body a {
     padding: 2em;
 }
 
-miniVignetteTextContainer > span {
-    margin-top: 1em;
+.miniVignetteTextContainer div {
+    margin-bottom: 1em;
 }
 
 .miniVignette {
     padding: 2em 0 2em 0;
     border-bottom: 1px solid grey;
+}
+
+.aboutContainer {
+    margin-top: 2em;
+    border-bottom: 1px solid grey;
+    padding: 2em 0 2em 0;
+}
+
+.aboutContainer div {
+    padding : 1em 0 1em 0;
 }
