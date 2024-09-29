@@ -1,6 +1,7 @@
 body {
     font-family: "Poppins", sans-serif;
     background-color: lightgrey;
+    margin: 0px;
 }
 
 body a {
@@ -16,7 +17,7 @@ body a {
     display: grid;
     grid-template-columns: 200px auto 200px;
     border-bottom: 1px grey solid;
-    margin-top: 0.5em;
+    background-color: white;
 }
 
 .headerContainer a {
@@ -117,6 +118,7 @@ body a {
 .article {
     background-color: white;
     padding: 2em;
+    margin: 2em;
 }
 
 .articleAuthorGridContainer {
