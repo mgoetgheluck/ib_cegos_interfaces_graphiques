@@ -10,7 +10,8 @@ body a {
 }
 
 .logo {
-    /* border-right : 1px solid grey; */
+    padding: 1em 0 1em 0;
+    border-right : 1px solid grey;
 }
 
 .headerContainer {
@@ -24,10 +25,25 @@ body a {
     border-left : 1px solid grey;
     margin-left: 1em;
     padding : 0 0 0 1em;
+    color: grey;
+}
+
+.headerContainer a:first-child {
+    border-left: 0!important;
+}
+
+
+.headerContainer .logo {
+    padding-left: 1em;
+}
+
+.linksContainer {
+    padding: 1em 0 1em 0;
 }
 
 .buttonsContainer {
     text-align: right;
+    padding: 1em 0 1em 0;
 }
 
 .buttonsContainer span {
@@ -158,7 +174,7 @@ body a {
 
 .articleButtonsLikeContainer div {
     border-left: 1px solid grey;
-    padding: 0 1em 0 1em;
+    padding: 0 5px 0 5px;
 }
 
 .articleButtonsLikeContainer div:first-child{
@@ -167,4 +183,50 @@ body a {
 
 .articleButtonsLikeContainer div span {
     padding-left: 1em;
+}
+
+.hexagon {
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+       -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+         -o-transform: rotate(120deg);
+            transform: rotate(120deg);
+    cursor: pointer;
+}
+
+.hexagon1 {
+    width: 200px;
+    height: 50px;
+    margin: 0 0 0 -80px;
+}
+
+.hexagon-in1 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    }
+.hexagon-in2 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(images/fox.jpg);
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+}
+
+.round-image {
+    border-radius: 50%;
+    border: 1px solid grey;
 }
