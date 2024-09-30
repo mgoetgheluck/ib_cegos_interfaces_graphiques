@@ -1,0 +1,76 @@
+.round-image {
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+
+.presentationContainer {
+    padding: 2em 3em 2em 3em;
+    border-bottom: 1px solid gray;
+    margin: 0!important;
+}
+
+.pictureContainer {
+    text-align: right;
+}
+
+.introTextContainer div {
+    padding: 1em 0 1em 0;
+}
+
+.stuffContainer{
+    background-color: #f4f4f4;
+    margin: 0!important;
+    padding: 2em;
+    border-bottom: 1px solid grey;
+}
+
+.stuffTitleContainer {
+    text-align: center;
+}
+
+.stuffTitleDescriptionContainer {
+    text-align: center;
+}
+
+.stuffListContainer {
+    display: flex;
+    text-align: center;
+}
+.stuffItemContainer {
+    background-color: white;
+    border: 1px solid grey;
+    padding: 2em;
+    margin: 1em;
+
+}
+
+.stuffListDescriptionContainer {
+    text-align: center;
+}
+
+.stuffButtonContainer {
+    text-align: center;
+    margin: 1em 0 1em 0;
+}
+
+.madeContainer {
+    margin: 0!important;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 2em;
+}
+
+.madeItemContainer {
+    border:1px solid grey;
+    background-color: white;
+}
+
+@media (max-width: 768px){
+    .pictureContainer {
+        text-align: center!important;
+    }
+
+    .stuffListContainer {
+        display: block;
+    }
+}
